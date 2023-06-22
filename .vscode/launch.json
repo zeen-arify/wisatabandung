@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter (Chrome)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["--web-renderer", "html", "--web-port", "8080", "--web-hostname", "localhost", "--web-browser", "chrome"],
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Flutter (Firefox)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["--web-renderer", "html", "--web-port", "8080", "--web-hostname", "localhost", "--web-browser", "firefox"],
+      "flutterMode": "debug"
+    }
+  ]
+}
